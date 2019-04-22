@@ -1,0 +1,28 @@
+{
+  "name": "CodePieces",
+  "version": "1.0.0",
+  "description": "A Code playground for my random achived front-end code functions.",
+  "author": "Yuan Tian",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cross-env": "^5.2.0",
+    "element-ui": "^2.7.2",
+    "nuxt": "^2.4.0",
+    "vuetify": "^1.5.5",
+    "vuetify-loader": "^1.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9",
+    "push-dir": "^0.4.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
+  }
+}
